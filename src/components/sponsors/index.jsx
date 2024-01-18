@@ -67,7 +67,7 @@ function SponsorItem({ link, title, width, height, id }) {
 		<li class={styles.sponsorItem}>
 			<a href={link} title={title} target="_blank" rel="noopener noreferrer">
 				<svg aria-hidden viewBox={`0 0 ${width} ${height}`}>
-					<use href={`/assets/sponsor-icons.svg#${id}`} />
+					<use href={`/sponsor-icons.svg#${id}`} />
 				</svg>
 			</a>
 		</li>
